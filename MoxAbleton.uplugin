@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 4,
+	"VersionName": "3.0.0",
+	"EngineVersion": "5.7.0",
+	"FriendlyName": "MozXR - Ableton",
+	"Description": "Real-time bridge for Ableton Live using AbletonOSC. Controls clips, scenes, tracks, and song playback from Unreal Engine via OSC protocol.",
+	"Category": "MozXR",
+	"CreatedBy": "Friedrich Bachinger",
+	"CreatedByURL": "https://ars.electronica.art/futurelab/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "MoxAbleton",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MoxUtility",
+			"Enabled": true
+		},
+		{
+			"Name": "OSC",
+			"Enabled": true
+		}
+	]
+}
